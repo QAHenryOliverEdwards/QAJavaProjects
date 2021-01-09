@@ -1,0 +1,20 @@
+package com.qa.main;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		StudentGrades student1 = new StudentGrades(100, 20, 60);
+		StudentGrades student2 = new StudentGrades(100, 100, 100);
+		StudentGrades student3 = new StudentGrades(75, 46, 87);
+		
+		student1.displayGrades();
+		student2.displayGrades();
+		student3.displayGrades();
+		
+		student1.findPercent();
+		student2.findPercent();
+		student3.findPercent();
+
+	}
+
+}

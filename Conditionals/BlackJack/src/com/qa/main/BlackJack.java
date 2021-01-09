@@ -1,0 +1,33 @@
+package com.qa.main;
+
+public class BlackJack {
+	
+	public double compare(double num1, double num2) {
+		double result = 0;
+		if (num1 < 0 || num2 < 0) {
+		}
+		else if (num1 > 21 && num2 > 21) {
+			result = 0;
+		}
+		else if (num1 > 21) {
+			result = num2;
+		}
+		
+		else if (num2 > 21) {
+			result = num1;
+		}
+		
+		else if (num1 == 21 && num2 == 21) {
+			result = 21;
+		}
+		
+		else if (num1 > num2) {
+			result = num1;
+		}
+		
+		else if (num2 > num1) {
+			result = num2; 
+		}
+		return result;
+	}
+}

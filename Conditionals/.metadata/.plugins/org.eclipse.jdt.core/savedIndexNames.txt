@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\henry\Desktop\Java Projects Eclipse\Conditionals\.metadata\.plugins\org.eclipse.jdt.core
+639963976.index
+1301774596.index
+266540750.index
+13670953.index
+1631999678.index
+1405973958.index

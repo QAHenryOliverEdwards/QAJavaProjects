@@ -1,0 +1,11 @@
+package com.qa.main;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		BasicAddition myAdder = new BasicAddition();
+		System.out.println(myAdder.basicAddition(5, 7));
+	}
+
+}

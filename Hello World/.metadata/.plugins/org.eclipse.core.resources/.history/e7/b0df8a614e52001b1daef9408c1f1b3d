@@ -1,0 +1,18 @@
+package com.qa.main;
+
+public class Runner {
+	
+	public static String helloWorld = "Hello World";
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Hello World");
+		System.out.println(helloWorld);
+		
+		printAnyString myString = new printAnyString();
+		myString.enterString("Hello enterString function");
+		System.out.println(myString.enterString("Wow this is alot of code!"););
+		
+	}
+
+}

@@ -1,0 +1,38 @@
+package com.qa.main;
+
+public class BlackJack {
+	
+	public double compare(double num1, double num2) {
+		double result = 0;
+		if (num1 < 0 || num2 < 0) {
+			System.out.println("One of the numbers is smaller than or equal to 0, invalid hand");	
+		}
+		if (num1 > 21 && num2 > 22) {
+			System.out.println("Both Fold");
+			result = 0;
+		}
+		if (num1 > 21) {
+			System.out.println("Player 2 Wins");
+			result = num2;
+		}
+		
+		else if (num2 > 21) {
+			System.out.println("Player 1 Wins");
+			result = num1;
+		}
+		
+		else if (num1 == 21 && num2 == 21) {
+			System.out.println("Draw");
+			result = 21;
+		}
+		
+		else if (num1 > num2) {
+			result = num1;
+		}
+		
+		else if (num2 > num1) {
+			result = num2; 
+		}
+		return result;
+	}
+}

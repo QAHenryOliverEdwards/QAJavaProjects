@@ -1,0 +1,22 @@
+package com.qa.main;
+
+public class StudentGrades {
+	
+	int physics;
+	int chemistry;
+	int biology;
+	int totalScore = (physics + chemistry + biology);
+	
+	public StudentGrades(int physics, int chemistry, int biology) {
+		this.physics = physics;
+		this.chemistry = chemistry;
+		this.biology = biology;
+	}
+	
+	public void displayGrades() {
+		System.out.println("Physics Grade: " + this.physics);
+		System.out.println("Chemistry Grade: " + this.chemistry);
+		System.out.println("Biology Grade: " + this.biology);
+		System.out.println("Total Grade: " + this.totalScore);
+	}
+}
