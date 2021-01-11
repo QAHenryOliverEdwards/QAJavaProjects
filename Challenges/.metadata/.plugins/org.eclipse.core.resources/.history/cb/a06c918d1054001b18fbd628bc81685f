@@ -11,7 +11,7 @@ public class PersonList extends ArrayList<Person>{
     public Person searchByName(String name) {
         Person myPerson = new Person(null, 0, null);
         for (Person person: myPersonList) {
-            if (person.getName().equals(name)) {
+            if (person.name == name) {
                 myPerson = person;
             }
         }
