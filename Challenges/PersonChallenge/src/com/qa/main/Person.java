@@ -4,7 +4,7 @@ public class Person {
 
     private String name;
     private int age;
-    private String jobTtitle;
+    private String jobTitle;
 
     public String getName() {
         return name;
@@ -22,18 +22,18 @@ public class Person {
         this.age = age;
     }
 
-    public String getJobTtitle() {
-        return jobTtitle;
+    public String getJobTitle() {
+        return jobTitle;
     }
 
-    public void setJobTtitle(String jobTtitle) {
-        this.jobTtitle = jobTtitle;
+    public void setJobTitle(String jobTitle) {
+        this.jobTitle = jobTitle;
     }
 
     public Person (String name, int age, String jobTitle) {
         this.name = name;
         this.age = age;
-        this.jobTtitle = jobTitle;
+        this.jobTitle = jobTitle;
     }
 
     @Override
@@ -41,7 +41,7 @@ public class Person {
         return "Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
-                ", jobTtitle='" + jobTtitle + '\'' +
+                ", jobTtitle='" + jobTitle + '\'' +
                 '}';
     }
 }
